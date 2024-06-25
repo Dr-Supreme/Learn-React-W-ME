@@ -20,13 +20,13 @@ return(
     </div>
 
     <div className="card">
-    <img src={big2} alt="profile picture"></img>
+    <img className ="card-image" src={big2} alt="profile picture"></img>
     <h2 className="card-title"> Dr Supreme</h2>
     <p className="card-text"> Im learning to code in react</p>
     </div>
 
     <div className="card">
-    <img src={nimbus} alt="profile picture"></img>
+    <img className ="card-image" src={nimbus} alt="profile picture"></img>
     <h2 className="card-title"> Dr Supreme</h2>
     <p className="card-text"> Im learning to code in react</p>
     </div>
