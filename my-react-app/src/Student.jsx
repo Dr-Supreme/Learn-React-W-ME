@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import propTypes from 'prop-types'
 
 // defaultProps = default values in case nothing is passed
 //propTypes = checks if the passed value is of the correct data type
@@ -23,14 +23,14 @@ function Student(props){
 
 }
 // this is how we create prop types: first import it like so in line 1
-Student.PropTypes = {
-    name: PropTypes.string,
-    age: PropTypes.number,
-    isStudent: PropTypes.bool,
-}
-Student.defaultProps = {
-    name: "Guest",
-    age: 0,
-    isStudent: false,
-} // this is used to give the fields a default value
+// Student.propTypes = {
+//     name: propTypes.string,
+//     age: propTypes.number,
+//     isStudent: propTypes.bool,
+// }
+// Student.defaultProps = {
+//     name: "Guest",
+//     age: 0,
+//     isStudent: false,
+// } // this is used to give the fields a default value
 export default Student

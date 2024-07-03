@@ -2,7 +2,7 @@ import nikePic from './assets/profile.jpeg'
 import goku from './assets/goku.jpg'
 import big2 from './assets/big2.jpeg'
 import nimbus from './assets/nimbus.jpeg'
-import PropTypes from 'prop-types'
+import propTypes from 'prop-types'
 
 function Card(props){
 
@@ -45,13 +45,13 @@ return(
     //index.css is where all the css for this will be at.
 );
 }
-Card.PropTypes = {
-    title: PropTypes.string,
-    text: PropTypes.string,
-}
-Card.defaultProps = {
-    title: "Still loading",
-    text: 0,
+// Card.propTypes = {
+//     title: propTypes.string,
+//     text: propTypes.string,
+// }
+// Card.defaultProps = {
+//     title: "Still loading",
+//     text: 0,
     
-}
+// }
 export default Card

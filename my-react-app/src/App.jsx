@@ -1,5 +1,10 @@
 import Header from "./Header.jsx"
 import Footer from "./Footer.jsx";
+import List from './List.jsx'
+import Onclick from './Onclick.jsx'
+import ProfilePicture from "./ProfilePic.jsx";
+import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
 // import Food from "./Food.jsx";
 import Card from "./Card.jsx";
 import Button from "./Button/Button.jsx";
@@ -19,6 +24,11 @@ function App() {
   return(
   <>
     <Header/>
+    <List/>
+    <Onclick/>
+    <ProfilePicture/>
+    <MyComponent/>
+    <Counter/>
     {/* <UserGreeting isLoggedIn={true} username="Supreme"/> */}
     <Card title="Code Geass" text="5" image={Code}/>
     <Card title="Full Metal Alchemist" text="4" image={FMB}/>
