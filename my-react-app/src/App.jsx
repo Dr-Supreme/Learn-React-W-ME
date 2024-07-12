@@ -6,6 +6,7 @@ import ProfilePicture from "./ProfilePic.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 // import Food from "./Food.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 import Card from "./Card.jsx";
 import Button from "./Button/Button.jsx";
 import Student from "./Student.jsx";
@@ -29,6 +30,7 @@ function App() {
     <ProfilePicture/>
     <MyComponent/>
     <Counter/>
+    <ColorPicker/>
     {/* <UserGreeting isLoggedIn={true} username="Supreme"/> */}
     <Card title="Code Geass" text="5" image={Code}/>
     <Card title="Full Metal Alchemist" text="4" image={FMB}/>
